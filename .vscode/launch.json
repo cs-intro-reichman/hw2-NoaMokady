@@ -17,6 +17,13 @@
             "request": "launch",
             "mainClass": "TimeCalc",
             "args": ["10:20", "30"]
+        },
+        {
+            "type": "java",
+            "name": "TestRandom",
+            "request": "launch",
+            "mainClass": "TestRandom",
+            "args": [3]
         }
     ]
 }
