@@ -17,8 +17,14 @@ public class TimeCalc {
 			minutesText = String.format("0%s", newMinutes);
 		}
 
+        // Adds 0 before single hours (under 10 hours).
+        String hoursText = String.format("%s", newHours);
+		if (newHours < 10) {
+			hoursText = String.format("0%s", newHours);
+		}
+
         // Prints the new time stamp.
-        String message = newHours + ":" + minutesText;
+        String message = hoursText + ":" + minutesText;
         System.out.println(message);
     }
 }
