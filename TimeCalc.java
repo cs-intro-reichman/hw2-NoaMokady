@@ -19,6 +19,6 @@ public class TimeCalc {
 
         // Prints the new time stamp.
         String message = newHours + ":" + minutesText;
-        System.err.println(message);
+        System.out.println(message);
     }
 }

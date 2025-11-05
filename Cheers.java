@@ -16,7 +16,7 @@ public class Cheers {
             List<Character> lettersList = word.chars().mapToObj(c -> (char) c).collect(Collectors.toList());
             for (Character letter : lettersList) {
                 // Prints the letter with a cheer. Uses "an" only for letters from the constant list.
-                String indefiniteArticle = "a ";
+                String indefiniteArticle = "a  ";
                 if (AN_LETTERS.contains(letter)) {indefiniteArticle = "an ";}
                 String cheerMessage = "Give me " + indefiniteArticle + letter + ": " + letter + "!";
                 System.out.println(cheerMessage);
