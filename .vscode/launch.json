@@ -31,6 +31,13 @@
             "request": "launch",
             "mainClass": "Cheers",
             "args": ["Runi", 3]
+        },
+        {
+            "type": "java",
+            "name": "CalcPi",
+            "request": "launch",
+            "mainClass": "CalcPi",
+            "args": [1000]
         }
     ]
 }
