@@ -16,7 +16,7 @@
             "name": "TimeCalc",
             "request": "launch",
             "mainClass": "TimeCalc",
-            "args": ["10:20", "30"]
+            "args": ["10:08", "52"]
         },
         {
             "type": "java",
