@@ -24,6 +24,13 @@
             "request": "launch",
             "mainClass": "TestRandom",
             "args": [3]
+        },
+        {
+            "type": "java",
+            "name": "Cheers",
+            "request": "launch",
+            "mainClass": "Cheers",
+            "args": ["Runi", 3]
         }
     ]
 }
