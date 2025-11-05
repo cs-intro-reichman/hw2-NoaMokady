@@ -17,6 +17,6 @@ public class CalcPi {
 
 		// Prints pi according to java next to the calculated approximated pi.
 		System.out.println("pi according to Java: " + Math.PI);
-		System.out.println("pi, approximated: " + 4 * seriesSum);
+		System.out.println("pi, approximated:     " + 4 * seriesSum);
 	}
 }
