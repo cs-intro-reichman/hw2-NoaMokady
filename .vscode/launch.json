@@ -38,6 +38,13 @@
             "request": "launch",
             "mainClass": "CalcPi",
             "args": [1000]
+        },
+        {
+            "type": "java",
+            "name": "Collatz",
+            "request": "launch",
+            "mainClass": "Collatz",
+            "args": [7, "v"]
         }
     ]
 }
