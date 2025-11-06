@@ -7,7 +7,7 @@ public class TestRandom {
 		int numUpperHalf = 0; // The number of random numbers over 0.5.
 		int numLowerHalf = 0; // The number of random numbers under or equal to 0.5.
 
-		// Counts the number of random numbers over and under 0.5.
+		// Counts the number of random numbers over and under or equal to 0.5.
 		int n = 0;
 		while (n < numTests) {
 			double randomNum = Math.random();
