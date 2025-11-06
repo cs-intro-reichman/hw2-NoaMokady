@@ -23,7 +23,7 @@
             "name": "TestRandom",
             "request": "launch",
             "mainClass": "TestRandom",
-            "args": [3]
+            "args": [100]
         },
         {
             "type": "java",
