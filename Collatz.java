@@ -10,9 +10,9 @@ public class Collatz {
 			int currentnum = seed;
 			// Used to print the Collatz conjecture numbers based on the mode.
 			String numbersText = currentnum + " ";
-			int numSteps = 0;
+			int numSteps = 1;
 			// Test the Collatz conjecture for a specific seed until it gets to 1.
-			while (currentnum != 1 || numSteps == 0) {
+			while (currentnum != 1 || numSteps == 1) {
 				if (currentnum % 2 == 0) {
 					currentnum = currentnum / 2;
 				} else {
